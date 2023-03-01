@@ -1,0 +1,18 @@
+.caixa {
+    background-color: red;
+    height: 120px;
+    width: 120px;
+}
+
+.caixa {
+    transition: all 1s ease-in-out;
+}
+
+.caixa:hover {
+    background-color: yellow;
+}
+
+input:checked {
+    width: 50px;
+    height: 50px;
+}
