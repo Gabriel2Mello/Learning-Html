@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  margin: 0;
+}
+
+nav {
+  background-color: grey;
+  float: left;
+  width: 150px;
+  color: blue;
+  padding: 40px 50px 110px 50px;
+  font-size: 15px;
+}
+
+nav ul {
+  margin:0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.logo {
+  width: 100vh;
+}
+
+img {
+  height: 50vh;
+}
+
+.content {
+  color: white;
+}
+
+.title {
+  font-size: 20px;
+}
+
+p {
+  font-size: 12px;
+}
