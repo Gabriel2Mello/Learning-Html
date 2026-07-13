@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="logo_pc_nunes.png">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <button class="nav-toggle-btn" id="menuBtn">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strock-width="2">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6"  x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </button>
+  <header class="hero-bg"></header>
+  <nav id="sidebar">
+    <ul>
+      <li>🏝️ Locais</li>
+      <li>🗺️ Mapa</li>
+      <li>📚 Coleções</li>
+    </ul>
+  </nav>
+    <div class="container">
+      <div class="content">
+        <h1 class="title">Nunes Enxovais</h1>
+        <p>
+          Redefinindo o segmento têxtil ao promover a sinergia perfeita entre almofadas e roletes conceituais. Nossa missão corporativa ancora-se na entrega de valor estético e na ressignificação de ambientes através de soluções integradas de alta decoração.
+        </p>
+        <p>
+          A engenharia de nossos futtons e assentos de cadeira reflete um compromisso inequívoco com a excelência tátil e a inovação disruptiva. Convergimos tecnologia de ponta e tendências globais para maximizar a experiência sensorial e o conforto absoluto dos nossos clientes.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      const manuBtn = document.getElementById('menuBtn');
+      const sidebar = document.getElementById('sidebar');
+      const container = document.querySelector('.container');
+
+      menuBtn.addEventListener('click', () => {
+        sidebar.classList.toggle('active');
+        container.classList.toggle('active');
+      });
+
+    </script>
+</body>
+</html>
